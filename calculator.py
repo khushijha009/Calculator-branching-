@@ -1,4 +1,4 @@
- def calculator():
+def calculator():
     print("Simple Calculator")
     print("1. Add")
     print("2. Subtract")
@@ -6,6 +6,7 @@
     print("4. Divide")
     
     choice = int(input("Choose an operation (1-4): "))
+    
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
 
@@ -23,5 +24,7 @@
     else:
         print("Invalid choice")
 
-if _name_ == "_main_":
+# Corrected '__name__' and '__main__' usage
+if __name__ == "__main__":
     calculator()
+
