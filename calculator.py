@@ -24,6 +24,9 @@ def calculator():
     else:
         print("Invalid choice")
 
+# Corrected '_name' and 'main_' usage
+if _name_ == "_main_":
+   calculator()
 # Corrected '__name__' and '__main__' usage
 if __name__ == "__main__":
     calculator()
